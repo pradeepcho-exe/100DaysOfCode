@@ -32,9 +32,11 @@ if user == 0:
   print(rock)
 elif user == 1:
   print(paper)
-else:
+elif user == 2:
   print(scissors)
-
+else:
+   print("")
+  
 sys = rd.randint(0,2)
 if sys == 0:
   print(f"Computer Chose:\n{rock}")
@@ -59,11 +61,12 @@ elif user == 1:
   else:
     print("It's draw")  
   
-else:
+elif user == 2:
   if sys == 0 :
     print("You lose")
   elif sys == 1:
     print("You win")
   else:
-    print("It's draw")  
-
+    print("It's draw") 
+else:
+  print("You typed an invalid number, You lose!")
