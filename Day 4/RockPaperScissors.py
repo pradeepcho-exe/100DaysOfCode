@@ -70,3 +70,4 @@ elif user == 2:
     print("It's draw") 
 else:
   print("You typed an invalid number, You lose!")
+
